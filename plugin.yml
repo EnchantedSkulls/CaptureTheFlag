@@ -1,25 +1,25 @@
 name: mcg76_CTF
-version: 1.6.0
+version: 2.9.1
 api: 1.12.0
-main: mcg76\game\ctf\CTFPlugIn
-author: minecraftgenius76
+main: EnchantedSkulls\game\ctf\CTFPlugIn
+author: EnchantedSkulls
 authors: [MCG76]
-description: minecraftgenius76 Minigame [Capture-The-Flag] 
+description: EnchantedSkulls Minigame [Capture-The-Flag] 
 website: http://www.youtube.com/user/minecraftgenius76
 commands:
  ctf:
   description: "Start minecraftgenius76 Minigame Capture-The-Flag"
-  permission: mcg76.ctf
+  permission: EnchantedSkulls.ctf
 permissions:
   mcg76.ctf:
     description: "Catpure The Flag Mini-game Plugin"
     default: true
     children:
-      mcg76.ctf.command:
+      EnchantedSkulls.ctf.command:
         description: "Allows use all CTF commands."
         default: true
         children:
-          mcg76.ctf.command.home:
+          EnchatedSkulls.ctf.command.home:
             description: "Allow use of [home] command"
             default: true
           mcg76.ctf.command.start:
@@ -29,19 +29,19 @@ permissions:
             description: "Allows use of [stop] commands"
             default: true
           mcg76.ctf.command.leave:
-            description: "Allows use of [leave] commands" 
+            description: "Allows use of [Quit] commands" 
             default: true           
           mcg76.ctf.command.create:
             description: "Allows use of [create] commands"            
             default: op            
           mcg76.ctf.command.reset:
-            description: "Allows use of [reset] commands"
+            description: "Allows use of [ResetAgain] commands"
             default: op                                    
           mcg76.ctf.command.stats:
-            description: "Allows use of [stats] commands"                                               
+            description: "Allows use of [Status] commands"                                               
             default: true 
           mcg76.ctf.command.joinblue:
-            description: "Allows use of [joinblue] commands."
+            description: "Allows use of [JoinBlueTeam] commands."
             default: true
           mcg76.ctf.command.blockon:
             description: "Allows use of [blockon] commands"                                               
@@ -50,17 +50,17 @@ permissions:
             description: "Allows use of [blockoff] commands."
             default: op			
           mcg76.ctf.command.joinred:
-            description: "Allows use of [joinred] commands."
+            description: "Allows use of [JoinRedTeam] commands."
             default: op
           mcg76.ctf.command.setblue:
-            description: "Allows use of [setsignblue] commands."
+            description: "Allows use of [SetSignBlue] commands."
             default: op			
           mcg76.ctf.command.setred:
-            description: "Allows use of [setsignred] commands."
+            description: "Allows use of [SetSignRed] commands."
             default: op          
           mcg76.ctf.command.setnew:
-            description: "Allows use of [setsignnew] commands."
+            description: "Allows use of [SetSignNew] commands."
             default: op			
           mcg76.ctf.command.setstat:
-            description: "Allows use of [setsignstat] commands."
+            description: "Allows use of [SetSignStatus] commands."
             default: op                       
