@@ -31,18 +31,6 @@ New Customization
   - arena building blocks for wall
   - arena building blocks for floor
 
-Youtube Videos
-===============================================================================================
-CTF Release 1.5.0 -latest :
-https://www.youtube.com/watch?v=PTJ7PyECWAM
-
-CTF Release 1.1.0 - update
-https://www.youtube.com/watch?v=nVyEYyes1qA
-
-CTF Release 1.0.0 -initial
-https://www.youtube.com/watch?v=p0OdbmZ5F3g
-
-===============================================================================================
 
 @TODO
 - Optimize arena rrendering time in Windows
@@ -283,7 +271,7 @@ Configuration: (config.xml)
 # ---------------------------
 # default world lobby location
 # ---------------------------
-enable_spaw_lobby: "no"
+enable_spawn_lobby: "true"
 # ---------------------------
 lobby_world: "world"
 lobby_x: "489"
@@ -297,9 +285,9 @@ ctf_game_z: "155"
 #---------------------------
 # GAME SETTINGS
 #---------------------------
-maximum_team_players: "10"
-maximum_game_rounds: "3"
-round_wait_time: "380"
+maximum_team_players: "1000"
+maximum_game_rounds: "10"
+round_wait_time: "300"
 #---------------------------
 # Arena Building Location
 #--------------------------- 
@@ -387,20 +375,20 @@ ctf_blue_team_spawn_z: "153"
 HAVE FUN!
 
 Bug Report:
-Author: MinecraftGenius76 
+Author: EnchantedSkulls 
 
 ================================================================================================
 
-Youtube Channel: https://www.youtube.com/user/minecraftgenius76/videos
+Youtube Channel: https://www.youtube.com/channel/UClkKJZHkkTNdEsjyBcqtDIw
 (Likes and Subscribe for more future videos)
 
-Twitter: https://twitter.com/minecraftgeni76
-Facebook: https://www.facebook.com/minecraftgenius76
+Twitter: https://twitter.com/EnchantedSkulls
+Facebook: not available for now,sorry
 
-Planetminecraft: http://www.planetminecraft.com/member/minecraftgenius76/
+Planetminecraft: http://www.planetminecraft.com/member/EnchantedSkulls/
 (Posted Projects)
 
 </pre>
 
 Thanks
-MinecraftGenius76
+EnchantedSkulls
