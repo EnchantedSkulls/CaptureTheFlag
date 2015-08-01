@@ -3,23 +3,23 @@
 namespace mcg76\game\ctf;
 
 
-use pocketmine\Player;
-use pocketmine\level\Position;
-use pocketmine\level\Level;
-use pocketmine\math\Vector3 as Vector3;
-use pocketmine\network\protocol\UpdateBlockPacket;
-use pocketmine\block\Block;
-use pocketmine\item\Item;
-use pocketmine\item\ItemBlock;
+use Leet\Player;
+use Leet\level\Position;
+use Leet\level\Level;
+use Leet\math\Vector3 as Vector3;
+use Leet\network\protocol\UpdateBlockPacket;
+use Leet\block\Block;
+use Leet\item\Item;
+use Leet\item\ItemBlock;
 
 
 /**
  * CTF Arena Builder
  *
- * Copyright (C) 2014 minecraftgenius76
+ * Copyright (C) 2014 EnchantedSkull
  *
  * @author MCG76
- * @link http://www.youtube.com/user/minecraftgenius76
+ * @link https://www.youtube.com/channel/UClkKJZHkkTNdEsjyBcqtDIw
  *      
  */
 class CTFBlockBuilder extends MiniGameBase  {
